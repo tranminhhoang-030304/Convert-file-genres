@@ -48,3 +48,26 @@ build/
 # IDE
 .vscode/
 .idea/
+
+# Temporary files
+server/tmp/
+*.tmp
+*.log
+*.zip
+*.doc
+*.docx
+*.pdf
+*.txt
+temp_*
+tmp_*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+venv310/
+
+# Node
+node_modules/
+dist/
+build/
