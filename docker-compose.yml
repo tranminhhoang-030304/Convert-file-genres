@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./server/tmp:/app/tmp
+    environment:
+      - CONVERT_DEBUG=1
+      - OCR_LANG=vie
+    restart: unless-stopped

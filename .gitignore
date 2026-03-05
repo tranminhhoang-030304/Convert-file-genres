@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Landing Page</title>
+    <meta name="description" content="Buildify landing page template" />
+    <meta name="author" content="Your Company" />
+
+    <meta property="og:title" content="Buildify Template Landing Page" />
+    <meta
+      property="og:description"
+      content="Buildify landing page template"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@your_handle" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/overlays/buildify.js"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
+# Dependencies
+node_modules/
+venv/
+venv310/
+.env
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
