@@ -71,3 +71,14 @@ venv310/
 node_modules/
 dist/
 build/
+
+# Temporary files
+server/tmp/
+*.tmp
+*.log
+*.zip
+*.doc
+*.docx
+*.pdf
+temp_*
+tmp_*
